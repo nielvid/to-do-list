@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="nielvid">
+    <meta name="description" content="a simple to-do list page and js program">
+    <title>My To-do list</title>
+    <link rel="stylesheet" href="todo.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo"></div>
+        <div class="menu">
+           <h1>Day Planner: My To-do List</h1> 
+        </div>
+    </div>
+    <div class="bodyContent">
+    <h2>Today's Activities Schedule</h2>
+    <p id="date"></p>
+    <p>Note: Type and Press enter to add new input field</p>
+
+<div class="mylist">
+    <input type="text" name="item" id="item" placeholder="Enter list of things you want to do"><br>
+<br>
+    <button id="button">Save</button>
+</div>   
+<div class="note">
+    <h2>Side Note:</h2>
+    <hr>
+    <p id="output">Type other side notes here:</p>
+    <textarea name="out" id="outtxt" cols="30" rows="10"></textarea>
+</div>
+</div>
+<script src="todo.js"></script>
+</body>
+</html>

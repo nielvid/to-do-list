@@ -1,0 +1,59 @@
+body{
+   margin: auto;
+    background-color: darkslategrey;
+    color: white;
+}
+
+.bodyContent{
+    margin: 30px;;
+}
+
+.header{
+    width: 100%;
+    margin-top: 0px;
+    padding-left: 20px;
+    background-color: black;
+    border: 1px solid   grey;
+    color: white;
+}
+
+.mylist{
+    float: left;
+    width: 40%;
+    border: 2px groove grey;
+    padding: 20px;
+    
+}
+
+.note{
+    width: 40%;
+    border: 2px solid grey;
+    padding: 20px;
+    float: left;
+    margin-left: 5%;
+    overflow-y: hidden;
+    box-sizing: border-box;
+}
+
+input[type="text"]{
+    width: 80%;
+    height: 30px;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+button{
+    width: 15%;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 25px;
+    font-size: 18px;
+}
+
+
+
+h1{
+    display: inline;
+    font-size: 55px;
+}
