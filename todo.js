@@ -1,9 +1,11 @@
 
-
+let date = new Date() ;
+ 
+document.getElementById("date").innerHTML =  date.toLocaleString();
 
 //create a new input element
-let input = document.getElementById('item');
-input.addEventListener('change', createInput);
+let inputBox = document.getElementById('item');
+inputBox.addEventListener('change', createInput);
 
  //function for new input to create another new input element
 function createInput(){
@@ -45,6 +47,4 @@ newInput.style.paddingLeft = '10px';
     let txt = document.getElementById('outtxt').value; // show the content of the textarea element
 
 
-   let date = new Date() ;
- 
-document.getElementById("date").innerHTML =  date.toLocaleString();
+   
